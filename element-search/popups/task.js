@@ -7,6 +7,7 @@ modalSuccess.style.display = 'none';
 
 btnDanger.onclick = function () {
   modalSuccess.style.display = 'flex';
+	modalMain.style.display = 'none';
 } 
 
 for (let i = 0; i < modalClose.length; i++) {
